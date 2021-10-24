@@ -20,11 +20,11 @@ Route::prefix('auth')->group(function () {
     Route::middleware(['guest'])->group(function () {
         Route::post('register', [AuthController::class, 'register']);
         Route::post('login', [AuthController::class, 'login']);
-        Route::post('reset', [AuthController::class, 'login']);
+        Route::post('reset', [AuthController::class, 'reset']);
     });
     Route::middleware(['auth:sanctum'])->group(function () {
-        Route::post('update-password', [AuthController::class, 'login']);
-        Route::post('update-profile', [AuthController::class, 'login']);
+        Route::post('update-password', [AuthController::class, 'updatePassword']);
+        Route::post('update-profile', [AuthController::class, 'updateUser']);
         Route::get('logout', [AuthController::class, 'logout']);
     });
 });
