@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a158c9503da1643c445835695fcd4b6",
+    "content-hash": "5e9f8ef31dcd59573c5ebdc29fbfe17e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -882,6 +882,56 @@
                 }
             ],
             "time": "2021-10-06T17:43:30+00:00"
+        },
+        {
+            "name": "k-samuel/faceted-search",
+            "version": "1.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/k-samuel/faceted-search.git",
+                "reference": "0738423f6c61048a9013930cf266cd7398fa1237"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/k-samuel/faceted-search/zipball/0738423f6c61048a9013930cf266cd7398fa1237",
+                "reference": "0738423f6c61048a9013930cf266cd7398fa1237",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3.0"
+            },
+            "require-dev": {
+                "codacy/coverage": "dev-master",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KSamuel\\FacetedSearch\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Yegorov",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Faceted search",
+            "homepage": "https://github.com/k-samuel/faceted-search",
+            "keywords": [
+                "faceted search",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/k-samuel/faceted-search/issues",
+                "source": "https://github.com/k-samuel/faceted-search"
+            },
+            "time": "2021-10-06T22:02:02+00:00"
         },
         {
             "name": "laravel/framework",
